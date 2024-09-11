@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carro Bluetooth para Distribución de Medicamentos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#objetivos">Objetivos</a></li>
+                <li><a href="#descripcion">Descripción del Proyecto</a></li>
+                <li><a href="#construccion">Construcción</a></li>
+                <li><a href="#utilidad">Utilidad</a></li>
+                <li><a href="#conclusiones">Conclusiones</a></li>
+                <li><a href="#bibliografia">Bibliografía</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio" class="hero">
+            <h1>Carro Bluetooth para Distribución de Medicamentos</h1>
+            <p>Proyecto del Grupo de Robótica del Colegio Alipio Valencia Vega</p>
+            <p>Integrantes del Grupo:</p>
+            <ul>
+                <li>Jhoel Chambi Rojas</li>
+                <li>Ivia Jazmín Choque Gonzales</li>
+                <li>Jonathan David Gomez Salinas</li>
+                <li>Elmer Quito Yanarico</li>
+                <li>Edwin Joel Huañapaco Amaru</li>
+                <li>Laura Melina Poma Mendoza</li>
+            </ul>
+            <button onclick="document.location='#objetivos'">¡Conoce Más!</button>
+        </section>
+
+        <section id="objetivos">
+            <h2>Objetivos</h2>
+            <h3>Objetivo General</h3>
+            <p>Elaborar un carro controlado por Bluetooth, que facilite la distribución segura y eficiente de medicamentos en diferentes entornos, optimizando los procesos de entrega y administración de estos.</p>
+            <h3>Objetivos Específicos</h3>
+            <ul>
+                <li>Desarrollar un prototipo funcional controlado de manera remota mediante tecnología Bluetooth.</li>
+                <li>Evaluar la eficiencia del carro en un entorno simulado, identificando posibles mejoras para su implementación en escenarios reales.</li>
+                <li>Crear una interfaz de usuario intuitiva para facilitar el control del carro, permitiendo su uso por cualquier persona sin necesidad de capacitación avanzada.</li>
+                <li>Optimizar el diseño para su adaptación en diferentes entornos hospitalarios, garantizando su escalabilidad y versatilidad.</li>
+            </ul>
+        </section>
+
+        <section id="descripcion">
+            <h2>Descripción del Proyecto</h2>
+            <p>Este proyecto se enfoca en el desarrollo de un carro automatizado que emplea tecnología Bluetooth para la distribución eficiente de medicamentos en hospitales. El carro será controlado de manera remota mediante un dispositivo móvil, utilizando la aplicación Bluetooth RC Controller.</p>
+            <p>El carro está diseñado para moverse de manera autónoma por los pasillos del hospital, siguiendo rutas predefinidas para evitar obstáculos y asegurar la entrega segura de medicamentos en los puntos designados. Además, el carro incluye un compartimento especialmente diseñado para transportar medicamentos de manera segura, garantizando que lleguen a su destino en perfectas condiciones.</p>
+            <p>Este proyecto no solo tiene un impacto técnico, sino que también representa un esfuerzo educativo significativo, permitiendo a los estudiantes aplicar conceptos de robótica en un entorno real. Además, sirve como inspiración para otros estudiantes, demostrando cómo la tecnología puede ser utilizada para resolver problemas complejos en el sector salud.</p>
+        </section>
+
+        <section id="construccion">
+            <h2>Construcción del Proyecto</h2>
+            <h3>Materiales Utilizados</h3>
+            <ul>
+                <li>Arduino UNO</li>
+                <li>Puente H L298N</li>
+                <li>Módulo Bluetooth HC-05</li>
+                <li>Baterías y portabaterías</li>
+                <li>Chasis 4WD (con cuatro motores y ruedas)</li>
+                <li>Jumpers y cables de conexión</li>
+                <li>Materiales adicionales para el transporte seguro de medicamentos</li>
+            </ul>
+            <h3>Pasos para el Ensamblaje</h3>
+            <ol>
+                <li><strong>Montaje del Chasis:</strong> Ensamblar el chasis 4WD, fijando las ruedas y los motores al chasis.</li>
+                <li><strong>Conexión del Puente H L298N:</strong> Conectar los motores a las salidas del L298N y los pines ENA/ENB a pines PWM del Arduino para controlar la velocidad.</li>
+                <li><strong>Conexión del Módulo Bluetooth HC-05:</strong> Conectar el módulo Bluetooth al Arduino para permitir el control remoto desde un dispositivo móvil.</li>
+                <li><strong>Conexión de la Batería:</strong> Conectar la batería al L298N y asegurarse de que el sistema reciba la energía adecuada.</li>
+                <li><strong>Montaje Final:</strong> Fijar el Arduino, el L298N y el módulo Bluetooth al chasis, asegurando que todo esté bien sujeto.</li>
+                <li><strong>Programación del Arduino:</strong> Configurar la comunicación serial entre el Arduino y el módulo Bluetooth, y cargar el código de control en el Arduino.</li>
+                <li><strong>Prueba del Robot:</strong> Conectar el dispositivo móvil al módulo Bluetooth y utilizar la aplicación para controlar el carro, verificando su funcionamiento en diferentes direcciones.</li>
+            </ol>
+        </section>
+
+        <section id="utilidad">
+            <h2>Utilidad y Aplicación</h2>
+            <p>La implementación de este carro automatizado tiene múltiples beneficios en entornos hospitalarios. Permite reducir significativamente el tiempo y esfuerzo necesario para la distribución de medicamentos, lo que permite al personal de salud enfocarse en tareas más críticas y menos repetitivas.</p>
+            <p>Además, al ser controlado de manera remota y autónoma, disminuye el riesgo de errores en la administración de medicamentos, lo cual es vital para la seguridad del paciente. Este tipo de automatización mejora la eficiencia operativa del hospital, optimizando el uso de recursos y mejorando la calidad del servicio ofrecido a los pacientes.</p>
+            <p>El carro también puede ser adaptado a diferentes tamaños y configuraciones de hospitales, desde grandes centros médicos hasta clínicas más pequeñas, lo que lo convierte en una solución flexible y escalable para diversas necesidades.</p>
+        </section>
+
+        <section id="conclusiones">
+            <h2>Conclusiones</h2>
+            <p>El proyecto del carro controlado por Bluetooth desarrollado por el grupo de robótica del Colegio Particular Alipio Valencia Vega ha demostrado ser una solución efectiva para mejorar la distribución de medicamentos en hospitales. Este proyecto no solo ha logrado cumplir con los objetivos técnicos planteados, sino que también ha sido una valiosa experiencia educativa para los estudiantes.</p>
+            <p>La automatización de este proceso crítico no solo optimiza los recursos disponibles, sino que también reduce significativamente el riesgo de errores en la administración de medicamentos, lo que es crucial para la seguridad de los pacientes. Además, este proyecto destaca por su flexibilidad, permitiendo su adaptación a diferentes entornos y necesidades.</p>
+            <p>En resumen, este carro automatizado tiene el potencial de transformar la manera en que se distribuyen los medicamentos en los hospitales, mejorando tanto la eficiencia como la seguridad en estos procesos. Es un claro ejemplo de cómo la tecnología y la educación pueden combinarse para crear soluciones prácticas y de impacto positivo en la comunidad.</p>
+        </section>
+
+        <section id="bibliografia">
+            <h2>Bibliografía</h2>
+            <ul>
+                <li>Fundación Universitaria de Ciencias de la Salud (2023). Carritos automatizados en hospitales: Una revisión crítica.</li>
+                <li>Gutiérrez, A. (2022). Robótica y automatización en el cuidado de la salud.</li>
+                <li>Pérez, J., & Gómez, R. (2021). Impacto de la automatización en la administración de medicamentos. Journal of Healthcare Engineering, 24(3), 78-92.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>Proyecto del Grupo de Robótica del Colegio Particular Alipio Valencia Vega.</p>
+    </footer>
+</body>
+</html>

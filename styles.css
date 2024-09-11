@@ -1,0 +1,145 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://static.vecteezy.com/system/resources/previews/006/959/483/non_2x/ambulance-van-isolated-on-white-background-empty-emergency-car-icon-funny-special-medical-transport-illustration-first-aid-concept-vector.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+/* Encabezado y navegación */
+header {
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+/* Hero section */
+.hero {
+    text-align: center;
+    color: #fff;
+    padding: 8rem 1rem;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero ul {
+    list-style: none;
+    padding: 0;
+}
+
+.hero ul li {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+    color: #f0f0f0;
+}
+
+.hero button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero button:hover {
+    background-color: #0056b3;
+}
+
+/* Secciones generales */
+section {
+    padding: 2rem 1rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+section p, section ul {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+section ul {
+    padding-left: 1.5rem;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Estilo adicional para mejorar el diseño responsivo */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .hero button {
+        padding: 0.8rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    section {
+        padding: 1.5rem 1rem;
+    }
+
+    section h2 {
+        font-size: 1.8rem;
+    }
+}
